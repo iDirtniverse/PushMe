@@ -1,0 +1,11 @@
+name: PushMe
+authors: [D-Dev]
+version: 1.0.0
+api: 1.12.0
+main: PushMe\Loader
+load: STARTUP
+description: "push powar"
+
+permission:
+  pushme.use:
+    default: true
