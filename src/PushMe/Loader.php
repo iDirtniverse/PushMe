@@ -21,7 +21,7 @@ class Loader extends Plugin implements Listener {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getServer()->getLogger()->info("PushMe Enabled");
         
-        $this->cfg = new Config($this->getDataFolder() ."MysteryCrates.yml", Config::YAML, [
+        $this->cfg = new Config($this->getDataFolder() ."config.yml", Config::YAML, [
 	    "ID" => 152,
     	"NoPerm_Msg" => "no permission",
         "Power" => 0.5
